@@ -1,6 +1,7 @@
 # Write a speak_to_grandma m
 
 def speak_to_grandma(arg)
+<<<<<<< HEAD
   if arg == "I LOVE YOU GRANDMA!"
     return "I LOVE YOU TOO PUMPKIN!"
   elsif arg == arg.upcase
@@ -9,6 +10,9 @@ def speak_to_grandma(arg)
      arg == arg.downcase
     return "HUH?! SPEAK UP, SONNY!"
   end
+=======
+  if arg = ""
+>>>>>>> c49d5605ea3496e8282e4daec8398d0307cb0cdb
 end
 
 # Whatever you say to grandma, she should respond with
